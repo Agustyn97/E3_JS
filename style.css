@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  
+}
+body{
+  background-color: black;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: gold;
+  position: sticky;
+  top: 0;
+}
+header h1 {
+  background-color: gold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5rem 3rem;
+  gap: 2rem;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  text-align: start;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+}
+
+.tag {
+  background: #cccccc;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: gold;
+}
+
+.card-body p {
+  text-align: start;
+  padding: 0 1rem 1rem;
+}
+
+.botonera{
+  padding: 2rem 0;
+}
+
+.btn {
+  color: gold;
+  background: transparent;
+  border: 2px solid gold;
+  border-radius: 6px;
+  color: white;
+  padding: 16px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  font-weight: 600;
+  width: 12rem;
+}
+
+.btn:hover {
+  background-color: gold;
+  color: black;
+}
+
+.inputbtn {
+  padding: 16px;
+  background-color: white;
+  border: 2px solid gold;
+  border-radius: 6px;
+}
+
+.inputbtn:focus {
+  border: 2px solid gold;
+  border-radius: 6px;
+}
+.eliminar{
+  color: red;
+  border: 2px solid red;
+}
+.eliminar:hover {
+  background-color: red;
+  color: white;
+}
+
+.mjsError {
+  color: gold;
+}
+
